@@ -1,0 +1,504 @@
+{
+  "lastUpdated": "2026-07-16",
+  "note": "Quiz categories and question bank. Edit or add questions here without touching index.html — the app re-renders the Quiz tab automatically when this file changes.",
+  "categories": [
+    {
+      "key": "pedestrian",
+      "ic": "🚶",
+      "name": "Pedestrian"
+    },
+    {
+      "key": "matatu",
+      "ic": "🚌",
+      "name": "Matatu &amp; Bus"
+    },
+    {
+      "key": "boda",
+      "ic": "🛵",
+      "name": "Boda Boda"
+    },
+    {
+      "key": "signs",
+      "ic": "🪧",
+      "name": "Road Signs"
+    },
+    {
+      "key": "night",
+      "ic": "🌙",
+      "name": "Night Safety"
+    },
+    {
+      "key": "overloading",
+      "ic": "🚛",
+      "name": "Overloading &amp; Fatigue"
+    },
+    {
+      "key": "rainy",
+      "ic": "🌧️",
+      "name": "Rainy Season"
+    },
+    {
+      "key": "animals",
+      "ic": "🐄",
+      "name": "Animal Crossings"
+    },
+    {
+      "key": "phone",
+      "ic": "📱",
+      "name": "Phone Distraction"
+    }
+  ],
+  "questions": [
+    {
+      "cat": "pedestrian",
+      "q": "What should you do before crossing the road?",
+      "opts": [
+        "Run across quickly",
+        "Stop, look and listen",
+        "Close your eyes",
+        "Cross with headphones on"
+      ],
+      "correct": 1,
+      "exp": "Stopping to look and listen gives you time to judge traffic before you commit to crossing."
+    },
+    {
+      "cat": "pedestrian",
+      "q": "Why is it dangerous to walk in front of a stopped bus?",
+      "opts": [
+        "It's not dangerous",
+        "The driver can't see you there — it's a blind spot",
+        "It wastes time",
+        "It's against the rules only"
+      ],
+      "correct": 1,
+      "exp": "The area right in front of, behind, or beside a bus is a blind spot — the driver may not know you're there."
+    },
+    {
+      "cat": "pedestrian",
+      "q": "If you see a broken traffic light nearby, you should:",
+      "opts": [
+        "Ignore it",
+        "Report it so it can be fixed",
+        "Try to fix it yourself",
+        "Walk faster past it"
+      ],
+      "correct": 1,
+      "exp": "Reporting hazards means they can be fixed before someone gets hurt."
+    },
+    {
+      "cat": "pedestrian",
+      "q": "On a road with no pavement, you should walk:",
+      "opts": [
+        "Facing oncoming traffic",
+        "With your back to traffic",
+        "In the exact middle of the road",
+        "Only at night"
+      ],
+      "correct": 0,
+      "exp": "Facing traffic lets you see vehicles coming and react — walking with your back to traffic removes that warning time.",
+      "minAge": 0
+    },
+    {
+      "cat": "pedestrian",
+      "q": "Roughly what share of Kenyan road deaths are pedestrians?",
+      "opts": [
+        "About 4%",
+        "About 40%",
+        "About 90%",
+        "Pedestrians are never involved"
+      ],
+      "correct": 1,
+      "exp": "Pedestrians make up roughly 4 in 10 road deaths in Kenya — a very high share compared to many countries.",
+      "minAge": 11
+    },
+    {
+      "cat": "boda",
+      "q": "As a boda boda passenger, you should:",
+      "opts": [
+        "Stand on the footrests",
+        "Sit fully seated, feet on footrests, helmet on",
+        "Sit on the fuel tank",
+        "Hang off the side"
+      ],
+      "correct": 1,
+      "exp": "A stable, seated position with a fastened helmet gives you the best protection if the bike stops suddenly."
+    },
+    {
+      "cat": "boda",
+      "q": "How many extra passengers can legally ride on a boda boda at once?",
+      "opts": [
+        "Three",
+        "Two",
+        "One",
+        "As many as can hold on"
+      ],
+      "correct": 2,
+      "exp": "Kenyan law limits a boda boda to one passenger — extra riders make the bike unstable and harder to control."
+    },
+    {
+      "cat": "boda",
+      "q": "Under current rules, who must wear a helmet on a boda boda?",
+      "opts": [
+        "Only the rider",
+        "Only the passenger",
+        "Both rider and passenger",
+        "Neither, it's optional"
+      ],
+      "correct": 2,
+      "exp": "Helmets are compulsory for both rider and passenger — a head injury can happen to either."
+    },
+    {
+      "cat": "boda",
+      "q": "What is the minimum age generally recommended before a child rides as a boda boda passenger?",
+      "opts": [
+        "Any age is fine",
+        "Around 12 years old",
+        "18 years old",
+        "There's no guidance"
+      ],
+      "correct": 1,
+      "exp": "Younger children often can't hold on securely or judge balance, so around 12 is the general guidance — arrange other transport before then.",
+      "minAge": 11
+    },
+    {
+      "cat": "boda",
+      "q": "Under the Traffic Act, riding a boda boda on the pavement is:",
+      "opts": [
+        "Allowed if traffic is heavy",
+        "Allowed for licensed riders only",
+        "Not allowed — pavements are for pedestrians",
+        "Allowed only at night"
+      ],
+      "correct": 2,
+      "exp": "Pavements are reserved for pedestrians — a boda boda riding there puts walkers at risk."
+    },
+    {
+      "cat": "boda",
+      "q": "What should a safe boda boda rider have?",
+      "opts": [
+        "A private unmarked motorbike",
+        "Registration with a licensed SACCO or company and visible ID",
+        "No requirements at all",
+        "Only a helmet for themselves"
+      ],
+      "correct": 1,
+      "exp": "Registered riders are accountable to a SACCO or company and carry visible ID — a useful safety check before boarding."
+    },
+    {
+      "cat": "matatu",
+      "q": "When is it safe to board a bus or matatu?",
+      "opts": [
+        "While it's slowing down",
+        "Only after it has fully stopped",
+        "From the middle of the road",
+        "Through the back window"
+      ],
+      "correct": 1,
+      "exp": "A moving vehicle can lurch or brake suddenly — always wait for a complete stop first."
+    },
+    {
+      "cat": "matatu",
+      "q": "A matatu's seating capacity is fixed by its licence. If it's already full, you should:",
+      "opts": [
+        "Squeeze in anyway",
+        "Sit on someone's lap",
+        "Wait for the next one or an official one",
+        "Ride on the roof"
+      ],
+      "correct": 2,
+      "exp": "An overloaded vehicle is harder to control and slower to stop — it's safer to wait for the next one."
+    },
+    {
+      "cat": "matatu",
+      "q": "The safest place to cross near a matatu stage is:",
+      "opts": [
+        "Right behind the parked matatu",
+        "Right in front of the parked matatu",
+        "A clear spot with good visibility, away from parked vehicles",
+        "Between two matatus"
+      ],
+      "correct": 2,
+      "exp": "Parked vehicles block a driver's view of you and your view of oncoming traffic — cross where you can see and be seen."
+    },
+    {
+      "cat": "matatu",
+      "q": "NTSA rules for school transport vehicles require them to have:",
+      "opts": [
+        "No specific requirements",
+        "A speed governor and regular inspection",
+        "Tinted windows only",
+        "Only a driver, no other checks"
+      ],
+      "correct": 1,
+      "exp": "A speed governor and regular inspection help keep school transport vehicles within safe operating limits.",
+      "minAge": 11
+    },
+    {
+      "cat": "matatu",
+      "q": "If a bus, matatu, or boda is overtaking dangerously while you're a passenger, you should:",
+      "opts": [
+        "Say nothing and hope for the best",
+        "Ask calmly to be let out at the next safe stop",
+        "Grab the steering wheel",
+        "Jump out while moving"
+      ],
+      "correct": 1,
+      "exp": "Asking to alight at the next safe stop removes you from danger without creating a new one."
+    },
+    {
+      "cat": "signs",
+      "q": "A traffic light turns amber. What does it mean?",
+      "opts": [
+        "Speed up to beat it",
+        "Prepare to stop and stay alert",
+        "It's broken, ignore it",
+        "Reverse immediately"
+      ],
+      "correct": 1,
+      "exp": "Amber is a warning phase — it means the light is about to change, not a signal to rush."
+    },
+    {
+      "cat": "signs",
+      "q": "A red traffic light means:",
+      "opts": [
+        "Slow down only",
+        "Stop completely and wait",
+        "Go if the road looks clear",
+        "Sound your horn and proceed"
+      ],
+      "correct": 1,
+      "exp": "Red always means a full stop, regardless of how clear the road looks."
+    },
+    {
+      "cat": "signs",
+      "q": "A round sign with a red border, showing a vehicle, usually means:",
+      "opts": [
+        "Parking allowed",
+        "That type of vehicle is not allowed here",
+        "Speed up",
+        "Priority road"
+      ],
+      "correct": 1,
+      "exp": "Red-circle signs are prohibition signs — they tell you something is not allowed."
+    },
+    {
+      "cat": "signs",
+      "q": "A triangular road sign with an exclamation mark usually means:",
+      "opts": [
+        "No parking",
+        "General warning — hazard ahead",
+        "End of motorway",
+        "Rest area nearby"
+      ],
+      "correct": 1,
+      "exp": "Triangular signs warn of a hazard ahead so you can slow down and stay alert."
+    },
+    {
+      "cat": "signs",
+      "q": "A blue circular sign showing a pedestrian and an arrow means:",
+      "opts": [
+        "Pedestrians are banned here",
+        "Pedestrians must use this path",
+        "Cyclists only",
+        "No meaning, decorative"
+      ],
+      "correct": 1,
+      "exp": "Blue circular signs give a mandatory instruction — here, that pedestrians must use the marked path."
+    },
+    {
+      "cat": "signs",
+      "q": "A sign showing a number inside a red circle, like a speed limit sign, means:",
+      "opts": [
+        "Suggested speed only",
+        "Maximum speed limit — do not exceed it",
+        "Minimum speed required",
+        "Distance to next town"
+      ],
+      "correct": 1,
+      "exp": "A number in a red circle sets the maximum legal speed for that stretch of road."
+    },
+    {
+      "cat": "night",
+      "q": "Best way to be seen walking at dusk?",
+      "opts": [
+        "Wear dark colours",
+        "Wear something bright or reflective",
+        "Walk in the middle of the road",
+        "Cover your shoes"
+      ],
+      "correct": 1,
+      "exp": "Bright or reflective clothing catches headlights and gives drivers more time to spot you."
+    },
+    {
+      "cat": "night",
+      "q": "When do Kenyan roads see the highest number of crashes, according to national data?",
+      "opts": [
+        "Weekday mornings",
+        "Friday to Sunday evenings",
+        "Tuesday afternoons",
+        "Public holidays only"
+      ],
+      "correct": 1,
+      "exp": "Friday to Sunday evenings are flagged as the deadliest window in Kenya's National Road Safety Action Plan.",
+      "minAge": 11
+    },
+    {
+      "cat": "night",
+      "q": "What's a safer habit at dusk or night as a pedestrian?",
+      "opts": [
+        "Wear dark clothing to look neat",
+        "Wear something bright or reflective",
+        "Walk without looking at traffic",
+        "Assume every driver has seen you"
+      ],
+      "correct": 1,
+      "exp": "Never assume you've been seen — bright or reflective clothing gives drivers a real chance to spot you in time."
+    },
+    {
+      "cat": "night",
+      "q": "Walking somewhere unlit at night, the safest habit is to:",
+      "opts": [
+        "Take an unfamiliar shortcut",
+        "Stick to known, busier routes and carry a light",
+        "Walk with headphones at full volume",
+        "Wear all-black clothing"
+      ],
+      "correct": 1,
+      "exp": "Familiar, busier routes plus a phone torch or small light make you both safer and more visible."
+    },
+    {
+      "cat": "night",
+      "q": "Fatigue affects a driver or rider's reaction time:",
+      "opts": [
+        "Not at all",
+        "Almost as much as alcohol can",
+        "Only after midnight",
+        "Only on long journeys"
+      ],
+      "correct": 1,
+      "exp": "Tiredness slows reaction time significantly — worth remembering on late trips as a passenger too."
+    },
+    {
+      "cat": "overloading",
+      "q": "Why is an overloaded matatu or lorry more dangerous?",
+      "opts": [
+        "It looks worse",
+        "It takes longer to stop and can roll on bends",
+        "It uses more fuel",
+        "It's not actually more dangerous"
+      ],
+      "correct": 1,
+      "exp": "Extra weight increases stopping distance and makes a vehicle more likely to tip over on a bend.",
+      "minAge": 11
+    },
+    {
+      "cat": "overloading",
+      "q": "If a vehicle you're about to board already looks full, you should:",
+      "opts": [
+        "Squeeze in anyway",
+        "Wait for the next one or a licensed one",
+        "Sit on the roof",
+        "Offer to hold someone's luggage instead"
+      ],
+      "correct": 1,
+      "exp": "Waiting for a properly loaded vehicle is safer than adding to an already overloaded one."
+    },
+    {
+      "cat": "overloading",
+      "q": "A driver who seems drowsy on a long trip is a warning sign because:",
+      "opts": [
+        "It means nothing",
+        "Tired drivers react much more slowly, similar to being impaired",
+        "It only matters at night",
+        "Drowsiness always shows clearly on their face"
+      ],
+      "correct": 1,
+      "exp": "Fatigue slows reaction time in a way that's comparable to alcohol impairment, even if it isn't obvious to look at.",
+      "minAge": 11
+    },
+    {
+      "cat": "rainy",
+      "q": "On a wet road, a vehicle's stopping distance is:",
+      "opts": [
+        "Shorter than usual",
+        "About the same as usual",
+        "Much longer than usual",
+        "Not affected by rain"
+      ],
+      "correct": 2,
+      "exp": "Water reduces tyre grip, so vehicles need much more distance to stop safely in the rain."
+    },
+    {
+      "cat": "rainy",
+      "q": "As a pedestrian in heavy rain, you should:",
+      "opts": [
+        "Wade quickly through fast-moving water",
+        "Give vehicles extra space since they may skid",
+        "Walk closer to the road to avoid puddles",
+        "Assume drivers can stop as fast as usual"
+      ],
+      "correct": 1,
+      "exp": "Vehicles are more likely to skid in the rain, so extra distance protects you if one loses grip."
+    },
+    {
+      "cat": "rainy",
+      "q": "Flooded sections of road are risky mainly because they can:",
+      "opts": [
+        "Hide potholes or open drains",
+        "Make the road cleaner",
+        "Slow down only bicycles",
+        "Have no effect on visibility"
+      ],
+      "correct": 0,
+      "exp": "Standing water can hide dangerous gaps in the road surface, so it's safer to avoid wading or driving through it."
+    },
+    {
+      "cat": "animals",
+      "q": "When should you be most alert for animals crossing rural roads?",
+      "opts": [
+        "Midday only",
+        "Dawn, dusk, or near grazing land",
+        "Only during school holidays",
+        "Animals never cross roads"
+      ],
+      "correct": 1,
+      "exp": "Livestock and wildlife move more near dawn, dusk, or grazing areas, so extra caution helps at those times."
+    },
+    {
+      "cat": "animals",
+      "q": "If you see a herd of animals near or on the road, you should:",
+      "opts": [
+        "Speed past them",
+        "Slow down and give them a wide, patient berth",
+        "Sound the horn continuously",
+        "Assume they'll move immediately"
+      ],
+      "correct": 1,
+      "exp": "Animals can be unpredictable, so slowing down and leaving space is safer than rushing or assuming they'll clear the road."
+    },
+    {
+      "cat": "phone",
+      "q": "Why is looking at your phone while crossing the road risky?",
+      "opts": [
+        "It isn't risky if the sound is on",
+        "It slows your reaction time and narrows your attention",
+        "Phones don't affect walking at all",
+        "It only matters for drivers, not pedestrians"
+      ],
+      "correct": 1,
+      "exp": "Even with sound on, a phone screen pulls your visual attention away from traffic and slows how fast you notice danger."
+    },
+    {
+      "cat": "phone",
+      "q": "The safest habit with your phone near traffic is to:",
+      "opts": [
+        "Keep texting while walking",
+        "Put it away before stepping off the curb",
+        "Only look up occasionally",
+        "Use it only in one hand"
+      ],
+      "correct": 1,
+      "exp": "Putting the phone away before you cross removes the distraction completely, rather than trying to manage it."
+    }
+  ]
+}

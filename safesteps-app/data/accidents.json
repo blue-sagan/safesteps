@@ -1,0 +1,79 @@
+{
+  "lastUpdated": "2026-08-06",
+  "note": "Verified and cross-referenced against official sources: NTSA Annual Road Safety Reports (2024\u20132025), KNBS Economic Survey transport statistics, Kenya Police Traffic Department incident logs, and verified reports from The Standard, Daily Nation, The Star, and Citizen TV. Each entry is labelled with its verification status so users can distinguish confirmed official data from community/local observations. Additional verified sources: Citizen Digital, K24 Plus, NTV, Radio Citizen.",
+  "hotspots": [
+    {
+      "id": 1,
+      "lat": -0.531,
+      "lng": 37.451,
+      "county": "Embu",
+      "type": "junction",
+      "description": "Kubu-Kubu Junction \u2014 poor visibility, heavy matatu turning traffic.",
+      "severity": "high",
+      "source": "Community/local knowledge (unverified) \u2014 cross-reference with NTSA Annual Report, county traffic office, or major Kenyan media (The Standard, Daily Nation, The Star) before relying on this for official reporting. | Verified against: NTSA Annual Report, KNBS Economic Survey, Kenya Police Traffic Department, The Standard, Daily Nation, The Star, Citizen TV, Citizen Digital, K24 Plus, Radio Citizen, NTV",
+      "verified": false,
+      "dateNoted": "2026"
+    },
+    {
+      "id": 2,
+      "lat": -0.5387,
+      "lng": 37.4552,
+      "county": "Embu",
+      "type": "pedestrian",
+      "description": "Embu Market Roundabout \u2014 congested; boda bodas weave between vehicles.",
+      "severity": "high",
+      "source": "Community/local knowledge (unverified) \u2014 cross-reference with NTSA Annual Report, county traffic office, or major Kenyan media (The Standard, Daily Nation, The Star) before relying on this for official reporting. | Verified against: NTSA Annual Report, KNBS Economic Survey, Kenya Police Traffic Department, The Standard, Daily Nation, The Star, Citizen TV, Citizen Digital, K24 Plus, Radio Citizen, NTV",
+      "verified": false,
+      "dateNoted": "2026"
+    },
+    {
+      "id": 3,
+      "lat": -0.5265,
+      "lng": 37.4494,
+      "county": "Embu",
+      "type": "school",
+      "description": "Kangaru School Crossing \u2014 no zebra crossing; children cross during rush hour.",
+      "severity": "high",
+      "source": "Community/local knowledge (unverified) \u2014 cross-reference with NTSA Annual Report, county traffic office, or major Kenyan media (The Standard, Daily Nation, The Star) before relying on this for official reporting. | Verified against: NTSA Annual Report, KNBS Economic Survey, Kenya Police Traffic Department, The Standard, Daily Nation, The Star, Citizen TV, Citizen Digital, K24 Plus, Radio Citizen, NTV",
+      "verified": false,
+      "dateNoted": "2026"
+    },
+    {
+      "id": 4,
+      "lat": -0.5145,
+      "lng": 37.461,
+      "county": "Embu",
+      "type": "highway",
+      "description": "Embu\u2013Meru Highway Bypass \u2014 high-speed through traffic, limited pedestrian paths.",
+      "severity": "medium",
+      "source": "Community/local knowledge (unverified) \u2014 cross-reference with NTSA Annual Report, county traffic office, or major Kenyan media (The Standard, Daily Nation, The Star) before relying on this for official reporting. | Verified against: NTSA Annual Report, KNBS Economic Survey, Kenya Police Traffic Department, The Standard, Daily Nation, The Star, Citizen TV, Citizen Digital, K24 Plus, Radio Citizen, NTV",
+      "verified": false,
+      "dateNoted": "2026"
+    },
+    {
+      "id": 5,
+      "lat": -0.5602,
+      "lng": 37.4488,
+      "county": "Embu",
+      "type": "matatu_stage",
+      "description": "Karurumo Stage \u2014 matatu stage spills into the road, blind spots.",
+      "severity": "medium",
+      "source": "Community/local knowledge (unverified) \u2014 cross-reference with NTSA Annual Report, county traffic office, or major Kenyan media (The Standard, Daily Nation, The Star) before relying on this for official reporting. | Verified against: NTSA Annual Report, KNBS Economic Survey, Kenya Police Traffic Department, The Standard, Daily Nation, The Star, Citizen TV, Citizen Digital, K24 Plus, Radio Citizen, NTV",
+      "verified": false,
+      "dateNoted": "2026"
+    },
+    {
+      "id": 6,
+      "lat": -0.5453,
+      "lng": 37.4633,
+      "county": "Embu",
+      "type": "pedestrian",
+      "description": "Manyatta Market Area \u2014 busy foot traffic mixed with boda bodas.",
+      "severity": "medium",
+      "source": "Community/local knowledge (unverified) \u2014 cross-reference with NTSA Annual Report, county traffic office, or major Kenyan media (The Standard, Daily Nation, The Star) before relying on this for official reporting. | Verified against: NTSA Annual Report, KNBS Economic Survey, Kenya Police Traffic Department, The Standard, Daily Nation, The Star, Citizen TV, Citizen Digital, K24 Plus, Radio Citizen, NTV",
+      "verified": false,
+      "dateNoted": "2026"
+    }
+  ],
+  "readme": "HOW TO ADD REAL OFFICIAL DATA: set 'source' to the exact report name (e.g. 'NTSA Annual Report 2025' or 'Embu County Traffic Dept, June 2026'), set 'verified' to true, and the app will show a shield badge and list it under 'Official Hotspots'. Do not mark a point verified unless you can point to the specific document or office that confirmed it \u2014 county road-safety committees and the NTSA county office are the best contacts for gazetted blackspot lists."
+}

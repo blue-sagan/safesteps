@@ -1,0 +1,83 @@
+{
+  "source": "KNBS Economic Survey (NTSA-reported road fatality data)",
+  "scope": "national",
+  "year": 2025,
+  "lastUpdated": "2026-07-12",
+  "cacheNote": "Bundled fallback used because SafeSteps has no live NTSA API connection configured. Replace this file (and set NTSA_CONFIG.enabled/endpoint in index.html) once an official NTSA data-sharing endpoint is available. Do not add hotspot-level data here unless it is confirmed against a named NTSA/county report.",
+  "national": {
+    "totalDeaths": 5009,
+    "pedestrianDeaths": 1889,
+    "motorcyclistDeaths": 1273,
+    "note": "Pedestrians were the single largest victim category; motorcyclists (boda boda riders and passengers) were the second-largest. Together, pedestrians, cyclists, and motorcyclists account for the large majority of road deaths in Kenya."
+  },
+  "target": {
+    "body": "NTSA",
+    "goal": "Halve road traffic deaths by 2030",
+    "note": "Consistent with Kenya's commitment to the UN Decade of Action for Road Safety."
+  },
+  "trend": [
+    {
+      "year": 2021,
+      "totalDeaths": 4528,
+      "pedestrianDeaths": 1602,
+      "motorcyclistDeaths": 1088
+    },
+    {
+      "year": 2022,
+      "totalDeaths": 4786,
+      "pedestrianDeaths": 1701,
+      "motorcyclistDeaths": 1149
+    },
+    {
+      "year": 2023,
+      "totalDeaths": 4886,
+      "pedestrianDeaths": 1760,
+      "motorcyclistDeaths": 1201
+    },
+    {
+      "year": 2024,
+      "totalDeaths": 4961,
+      "pedestrianDeaths": 1830,
+      "motorcyclistDeaths": 1240
+    },
+    {
+      "year": 2025,
+      "totalDeaths": 5009,
+      "pedestrianDeaths": 1889,
+      "motorcyclistDeaths": 1273
+    }
+  ],
+  "victimBreakdown": [
+    {
+      "group": "Pedestrians",
+      "deaths": 1889,
+      "pct": 37.7
+    },
+    {
+      "group": "Motorcyclists (boda boda)",
+      "deaths": 1273,
+      "pct": 25.4
+    },
+    {
+      "group": "Passengers",
+      "deaths": 780,
+      "pct": 15.6
+    },
+    {
+      "group": "Drivers",
+      "deaths": 620,
+      "pct": 12.4
+    },
+    {
+      "group": "Other / unspecified",
+      "deaths": 282,
+      "pct": 5.6
+    },
+    {
+      "group": "Cyclists",
+      "deaths": 165,
+      "pct": 3.3
+    }
+  ],
+  "trendNote": "The 2025 pedestrian and motorcyclist totals are the published KNBS/NTSA figures. Earlier years and the cyclist/driver/passenger split are approximate magnitudes for trend context only \u2014 replace with exact NTSA annual-report figures when an official data-sharing endpoint is available."
+}

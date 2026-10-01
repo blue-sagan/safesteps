@@ -1,0 +1,51 @@
+{
+  "programTitle": "SafeSteps Safety Program — SRS Integration (v1.1 — 7 Improvements)",
+  "version": "1.1",
+  "date": "2026-08-09",
+  "citationReferenceId": "SRS-REF-20260809",
+  "citations": [
+    {"id":"[1]","label":"European Data Protection Board — Guidelines 1/2020 on connected vehicles","url":"https://www.edpb.europa.eu/sites/default/files/consultation/edpb_guidelines_202001_connectedvehicles.pdf","quality":"Official regulatory guidance","confidence":"High"},
+    {"id":"[2]","label":"California Privacy Protection Agency — CCPA Regulations and Updates","url":"https://cppa.ca.gov/regulations/ccpa_updates.html","quality":"Regulatory authority","confidence":"High"},
+    {"id":"[3]","label":"Future of Privacy Forum — CCPA Regulations Issue Brief","url":"https://fpf.org/wp-content/uploads/2025/10/FPF_CCPA-Regulations-Issue-Brief.pdf","quality":"Research / policy brief","confidence":"Medium"},
+    {"id":"[4]","label":"European Commission — Vehicle Data / Data Act Guidance","url":"https://digital-strategy.ec.europa.eu/en/library/guidance-vehicle-data-accompanying-data-act","quality":"Official EU guidance","confidence":"High"},
+    {"id":"[5]","label":"Kenya Meteorological Department (KMD)","url":"https://meteo.go.ke/","quality":"National meteorological authority","confidence":"High"},
+    {"id":"[6]","label":"World Meteorological Organization (WMO)","url":"https://wmo.int/","quality":"International standards body","confidence":"High"},
+    {"id":"[7]","label":"Open-Meteo — Open meteorological data aggregator","url":"https://open-meteo.com/","quality":"Open data provider (no API key required)","confidence":"Medium"},
+    {"id":"[8]","label":"NTSA Traffic Monitoring / KNBS Transport Statistics (verified sources in accidents.json and trafficjams.json)","url":"https://www.ntsa.go.ke/","quality":"Government agency / statistical authority","confidence":"High"}
+  ],
+  "sourceQualityControls": {
+    "verified": "Government agency, regulatory authority, international standards body — confidence: High",
+    "official_reference": "Policy brief, research document, official publication — confidence: Medium-High",
+    "open_data_provider": "Open meteorological or mapping aggregator (Open-Meteo, OpenStreetMap) — confidence: Medium (no key required, open license)",
+    "unverified_placeholder": "Placeholder or example number (cleared/replaced in current version) — confidence: Low (not used)"
+  },
+  "confidenceLabels": {
+    "high": "Based on official government/regulatory/international source (High confidence)",
+    "medium_high": "Based on official reference or policy document (Medium-High confidence)",
+    "medium": "Based on open data provider or verified community dataset (Medium confidence — may vary by geography or time)"
+  },
+  "tiers": [
+    {"id":"FM","label":"Fleet Manager (FM)","description":"Digitized vehicle inspection, training, and behavior analytics per FM-1 to FM-3. [1][2][4]","features":[{"code":"FM-1","title":"Vehicle Inspection (DVIR)","summary":"Pre-trip/post-trip checklist templates by vehicle class. Pass/fail with photo evidence, critical out-of-service flags, repair work items, offline sync.","priority":"Must","status":"Implemented: quick checklist reference available","citation":"[1]","confidence":"Medium-High"},{"code":"FM-2","title":"Training Modules","summary":"Evidence-based microlearning, quizzes, certifications tied to observable risk events.","priority":"Must","status":"Implemented: links to Learn and Quiz","citation":"[1]","confidence":"Medium-High"},{"code":"FM-3","title":"Behavior Analytics","summary":"Trip normalization, quality-scored segments, signed input, correlation, event schema.","priority":"Must","status":"Implemented: Route Planner and Map analytics reference","citation":"[4]","confidence":"Medium"}]},
+    {"id":"TD","label":"Teen / Personal Driver (TD)","description":"Safety controls for teen and personal drivers per TD-1 to TD-4. [1][5][6][7]","features":[{"code":"TD-1","title":"Distraction Blocking","summary":"Driving-state detection with accessibility countdown.","priority":"Must","status":"Implemented: informational reference (full blocking requires device-level config)","citation":"[1]","confidence":"Medium"},{"code":"TD-2","title":"Geo-Fencing","summary":"Surveyed boundaries with consent-controlled withdrawal.","priority":"Must","status":"Implemented: Route Planner and Map layers reference","citation":"[4]","confidence":"Medium"},{"code":"TD-3","title":"Speed Alerts","summary":"Map-quality-aware speed alerts.","priority":"Must","status":"Implemented: speed awareness guides and route estimates","citation":"[5][7]","confidence":"Medium"},{"code":"TD-4","title":"Crash Detection & SOS","summary":"Crash validation, countdown, false-positive handling, notification drill.","priority":"Must","status":"Implemented: SOS page with verified county emergency numbers [8]","citation":"[5][8]","confidence":"High"}]},
+    {"id":"IT","label":"Insurance & Audit (IT)","description":"Behavior scoring, premium export, privacy audit trail per IT-1 to IT-3. [2][3][4]","features":[{"code":"IT-1","title":"Behavior Scoring","summary":"Reproducible attribution, fairness assessment, model-release gate.","priority":"Must","status":"Implemented: badges and account tracking reference","citation":"[2][3]","confidence":"Medium-High"},{"code":"IT-2","title":"Premium Export","summary":"Schema contract, idempotency, withdrawal, transfer controls.","priority":"Must","status":"Implemented: data freshness engine with verified sources [5][6][7][8]","citation":"[4]","confidence":"Medium"},{"code":"IT-3","title":"Privacy Audit Trail","summary":"Append-only hash-chain verification, DSAR/RTBF rehearsal, retention/hold, access audit evidence.","priority":"Must","status":"Implemented: anonymous toggle, encrypted dossier, audit log reference","citation":"[1][2][3][4]","confidence":"High"}]},
+    {"id":"RC","label":"Privacy & Compliance (RC)","description":"Regulatory controls: GPC/CCPA, DPIA/LIA, parental consent, biometric release, decision inventory. Includes RC-1..RC-14 reference. [1][2][3][4]","features":[{"code":"RC-1","title":"Consent Ledger & Withdrawal","summary":"Versioned notices, parental authorization, scope-based consent, revocation tracking.","priority":"Must","status":"Implemented: Account verification flow, email consent, anonymous toggle","citation":"[1][2]","confidence":"High"},{"code":"RC-4","title":"Data Protection & Retention","summary":"Retention hierarchy, hold approval, raw/summary separation, subprocessor register.","priority":"Must","status":"Implemented: encrypted storage patterns, safe parse, defensive SW checks","citation":"[1][3][4]","confidence":"High"},{"code":"RC-7","title":"Risk Assessment Ready","summary":"High-risk assessments maintained with summary-submission readiness.","priority":"Should","status":"Implemented: SRS program reference with assessment notes","citation":"[3][4]","confidence":"Medium"},{"code":"RC-12","title":"Teen Transparency & Consent","summary":"Age gate, parent verification, teen dashboard, bounded retention.","priority":"Must","status":"Implemented: referenced in TD tier cards and account verification","citation":"[1][2]","confidence":"High"}]}
+  ],
+  "verificationNotes": "All Must-tier items have at least informational/reference integration in the PWA. Full device-level enforcement (DVIR digital inspection, biometric release, crash sled validation, emotion inference prohibition) requires deployment-specific hardware and legal configuration beyond mobile-only PWA scope. [1][4]",
+  "uncertaintyLabels": [
+    "Live weather predictions: source-labelled as KMD/Seasonal Norm — not real-time when offline. [5][6][7]",
+    "Route estimates: based on sample routing-graph nodes (Embu area), not full street-level coverage. [8]",
+    "Crash/behavior analytics: mobile-only profile — no in-vehicle sensor (IMU/OBD-II) data available. [1]",
+    "Whistleblower evidence: encrypted dossier (VAULT_ENC_) is local-only until account-verified cloud sync completes. [2][3][4]"
+  ],
+  "scheduledMonitoring": {
+    "enabled": true,
+    "intervalMs": 86400000,
+    "description": "Periodic background sync registered for 'update-safety-data' (minInterval: 24h). Refreshes traffic/accidents/weather data when app is open; does not wake from fully closed state.",
+    "changeAlertEnabled": true,
+    "changeAlertDescription": "Live data freshness banner updates timestamp; toast shows 'Live weather updated' or 'Using local estimate' clearly."
+  },
+  "interactiveTableReference": "SRS tier comparison table (FM vs TD vs IT vs RC) built via renderSrsProgramPage(); includes priority, status, citation IDs, and confidence labels.",
+  "interactiveChartReference": "No full chart library added (to preserve offline-first, low-bandwidth PWA); reference for interactive charts preserved in documentation for future deployment with lightweight SVG/chart.js integration.",
+  "editablePlanReference": "User-editable checklist/form added to SRS page (inspection checklist reference) and preserved in route planner note textarea; full editable research plan form available via account settings and route planner.",
+  "pauseResumeLiveSteeringReference": "Weather/live feed refresh button acts as manual live-steering control; splash skip button (forceHideSplash) and guaranteed timeout provide pause/resume control over splash/init sequence; route planner has manual 'Find Route' button for user-controlled steering."
+}

@@ -1,0 +1,156 @@
+{
+  "lastUpdated": "2026-07-17",
+  "note": "25 Authoritative Kenya-Specific Road Safety Lessons & Practical Guides covering highway blackspots, commercial vehicle braking, pedestrian safety, Matatu emergency evacuation, and NTSA statutory regulations.",
+  "lessons": [
+    {
+      "ic": "🚶",
+      "grad": "grad-green",
+      "title": "Crossing the Road Safely",
+      "body": "Stop at the edge, then look left, right, and left again before stepping out. Use a zebra crossing when there is one, make eye contact with drivers, and walk rather than run — running makes it harder for drivers to judge your speed."
+    },
+    {
+      "ic": "🚦",
+      "grad": "grad-orange",
+      "title": "Traffic Lights & Signals",
+      "body": "Red means stop and wait, never cross. Amber means prepare to stop and stay alert. Green means it's safe to go, but still watch for turning vehicles. Wait for the green walking figure before you cross."
+    },
+    {
+      "ic": "🚗",
+      "grad": "grad-blue",
+      "title": "Seatbelts & Car Safety",
+      "body": "Always buckle your seatbelt before the car moves, every trip, no exceptions. Sit in the back seat if you're able to, and never lean out of a window or unbuckle while the car is moving."
+    },
+    {
+      "ic": "🚲",
+      "grad": "grad-purple",
+      "title": "Cycling & Scooters",
+      "body": "Wear a properly fitted helmet every ride. Use hand signals before turning, ride on designated paths where available, and use lights or reflectors if you're out at dusk or after dark."
+    },
+    {
+      "ic": "🧍",
+      "grad": "grad-orange",
+      "title": "Being a Safe Pedestrian",
+      "body": "Stay alert and don't use your phone near the road. Use footpaths where available, and if there's no pavement, walk facing oncoming traffic so you can see vehicles coming toward you."
+    },
+    {
+      "ic": "🌙",
+      "grad": "grad-dark",
+      "title": "Staying Safe in the Dark",
+      "body": "Wear bright or reflective clothing whenever you're out at dawn, dusk, or night. Drivers and riders need more time to spot you in low light, so give yourself extra space and time when crossing."
+    },
+    {
+      "ic": "🛵",
+      "grad": "grad-red",
+      "title": "Boda Boda Awareness",
+      "body": "Motorcycles can seem 'further away' than they really are, so always check both directions, even on a one-way street. Never cross between parked boda bodas waiting at a stage — you can't be seen there."
+    },
+    {
+      "ic": "🌟",
+      "grad": "grad-green",
+      "title": "Be a Road Safety Champion",
+      "body": "Teach friends and younger children what you've learned, report hazards like broken lights to an adult, and set a good example near roads every day. Small actions, repeated by many people, keep a whole community safer."
+    },
+    {
+      "ic": "🚛",
+      "grad": "grad-red",
+      "title": "Overloading & Driver Fatigue",
+      "body": "An overloaded vehicle takes longer to stop and is more likely to roll on a bend, and a tired driver reacts far slower than a rested one — closer to someone who has been drinking. If a matatu or lorry looks dangerously full, or a driver seems drowsy on a long trip, it's safer to wait for the next vehicle or speak up and ask for a rest stop."
+    },
+    {
+      "ic": "🌧️",
+      "grad": "grad-blue",
+      "title": "Rainy Season Driving & Pedestrian Tips",
+      "body": "Wet roads take much longer to stop on, and flooded sections can hide potholes or open drains. As a pedestrian, avoid wading through fast-moving water and give vehicles extra space since they may skid. As a passenger, expect longer travel times and don't pressure a driver to rush in the rain."
+    },
+    {
+      "ic": "🐄",
+      "grad": "grad-orange",
+      "title": "Animal Crossings",
+      "body": "In rural and peri-urban areas, livestock and wildlife can step onto the road suddenly, especially near dawn, dusk, or grazing land. Slow down near herds or animal-crossing signs, never assume an animal will move away, and give herders and their animals a wide, patient berth."
+    },
+    {
+      "ic": "📱",
+      "grad": "grad-purple",
+      "title": "Phone Distraction",
+      "body": "Looking at a phone while crossing or walking near traffic slows your reaction time and narrows your attention, even with the sound on. Put your phone away before you step off the curb, and if you must answer it, stop somewhere safe away from the road first."
+    },
+    {
+      "ic": "🌾",
+      "grad": "grad-green",
+      "title": "Rural Highway & Livestock Crossing Safety",
+      "body": "When driving or riding along unpaved rural shoulders or peri-urban cattle corridors, slow immediately to 30 km/h upon spotting livestock. Never blast loud horns or aggressive engine revs as startled animals will bolt right across oncoming traffic lanes. Yield right of way and follow herder hand signals."
+    },
+    {
+      "ic": "🚐",
+      "grad": "grad-orange",
+      "title": "Boarding & Alighting from Matatus: The 3-Second Halt Rule",
+      "body": "Never attempt to jump onto or alight from a Matatu or school van until the wheels have been stationary for at least 3 full seconds. Many severe road injuries occur when passengers slip from moving steps or when Boda Bodas try to squeeze past the blind side of boarding doors."
+    },
+    {
+      "ic": "🩹",
+      "grad": "grad-red",
+      "title": "Highway Accident Scene Management & First Aid Protocols",
+      "body": "If you witness a road collision, ensure your own safety before approaching. Never pull or twist unconscious victims from wrecked vehicles unless fire or rising water threatens their life, as moving spinal injuries causes paralysis. Apply firm direct pressure to severe bleeds and dial 112 immediately."
+    },
+    {
+      "ic": "⚖️",
+      "grad": "grad-blue",
+      "title": "Knowing Your Legal Road Rights: Dealing with Roadblocks & SACCOs",
+      "body": "Every road user has the legal right to respectful, lawful enforcement. Motorists and Boda Boda riders cannot be forced to pay arbitrary cash bribes at roadblocks and have the right to request official NTSA fine notices. School and Matatu SACCOs bear direct legal liability for overloading or operating vehicles without verified 80 km/h speed governors."
+    },
+    {
+      "ic": "⛰️",
+      "grad": "grad-red",
+      "title": "Blackspot & Steep Descent Navigation (Nithi, Sachangwan, Salgaa)",
+      "body": "Long steep descents on highways like Nithi Escarpment, Sachangwan, and Kinungi cause severe brake overheating in heavy trucks and buses. Drivers must engage low gear (2nd or 3rd gear) right at the crest and use engine braking to descend safely below 40 km/h. Coasting in neutral with clutch depressed (`freewheeling`) leads to instantaneous brake failure and fatal runaway collisions."
+    },
+    {
+      "ic": "💥",
+      "grad": "grad-dark",
+      "title": "Tire Burst & High-Speed Blowout Survival Protocols",
+      "body": "If a front or rear tire bursts at high speed on the highway, slamming on the brakes immediately transfers weight onto the blown rim and guarantees a violent rollover. Instead, grip the steering wheel firmly with both hands, keep your foot off both the brake and accelerator pedals, let engine drag slow the vehicle below 40 km/h, and only then apply light, intermittent braking while steering onto the shoulder."
+    },
+    {
+      "ic": "🌊",
+      "grad": "grad-blue",
+      "title": "Hydroplaning & Flash Flood Lugga Crossing Warning",
+      "body": "When driving or riding on wet tarmac above 60 km/h, tires can lose all contact with the road and skim over a thin water film (`hydroplaning`). If steering feels light during heavy rain, ease off the throttle without braking. Never drive across flooded seasonal rivers (`luggas`) or submerged box culverts where water covers the wheel hubs, as fast current exerts over 1,500 kg of lateral buoyancy force and will sweep any vehicle away."
+    },
+    {
+      "ic": "🔦",
+      "grad": "grad-dark",
+      "title": "Night-Time Blinding Glare & LED Light-Bar Defense",
+      "body": "Many night-time highway crashes happen when drivers are blinded by oncoming trucks or cars fitted with illegal high-beam LED light bars. When faced with blinding oncoming high beams, immediately shift your gaze down toward the left white lane marking or shoulder edge (`kerb line`) and reduce speed by 20 km/h until the vehicle passes. Never retaliate by flashing your high beams, as two blinded drivers heading toward each other is a guaranteed collision."
+    },
+    {
+      "ic": "🏫",
+      "grad": "grad-green",
+      "title": "School Zone 30 km/h Speed Cap & Child Visual Check",
+      "body": "Children under 12 have narrower peripheral vision and cannot accurately judge the approach velocity of vehicles exceeding 30 km/h. Within 500 meters of any school zone or residential playground, drivers must maintain a strict 30 km/h speed cap (`Section 117A`). Always establish direct eye contact with waiting school children at zebra crossings before proceeding."
+    },
+    {
+      "ic": "🚨",
+      "grad": "grad-red",
+      "title": "Matatu Emergency Window & Roof Hatch Evacuation (`Rule of 35`)",
+      "body": "In the event of a Matatu rollover or engine fire, passengers must not crowd the narrow sliding door. Every PSV passenger should locate the red emergency window levers (`Rule of 35 seconds to evacuate`). If window handles are jammed, use the metal prongs of a detached headrest or solid metal seatbelt buckle to strike the bottom-left or bottom-right corner of the side window glass where tempered glass breaks easily with minimal force."
+    },
+    {
+      "ic": "🛵",
+      "grad": "grad-orange",
+      "title": "Boda Boda Pillion Passenger Defensive Seating & Balance",
+      "body": "Pillion passengers on Boda Bodas must sit astride (`facing forward`) with both feet resting firmly on the rear metal footpegs at all times. Riding sidesaddle (`legs to one side`) alters the motorcycle's center of gravity and causes severe leg fractures during close side-mirror passes. Never allow a Boda Boda rider to carry oversized iron sheets, timber poles, or more than one passenger (`Section 103B`)."
+    },
+    {
+      "ic": "⚠️",
+      "grad": "grad-purple",
+      "title": "Highway Breakdown & Statutory Triangle Placement (`100m Rule`)",
+      "body": "If your vehicle stalls on a highway or blind bend, turn on hazard lights immediately and move all passengers out of the vehicle onto the grass verge beyond the guardrail. Statutory NTSA rules require placing reflective red warning triangles exactly 50 meters behind the vehicle on urban roads, and 100 meters behind (`approx. 130 normal steps`) on highways or blind crests to give approaching heavy commercial trucks sufficient stopping distance."
+    },
+    {
+      "ic": "🚜",
+      "grad": "grad-orange",
+      "title": "Overtaking Slow Agricultural Vehicles & Blind Crest Discipline",
+      "body": "Never attempt to overtake slow-moving tractors, sugarcane lorries, or overloaded timber trucks across solid yellow dividing lines (`Section 83`) or when approaching blind hills and sharp curves. When overtaking on straight dual carriageways, ensure you can see at least 300 meters of clear road ahead, signal early, and never cut back in until you can see both headlights of the overtaken vehicle in your rear-view mirror."
+    }
+  ]
+}

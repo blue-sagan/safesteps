@@ -1,0 +1,354 @@
+{
+  "lastUpdated": "2026-07-18",
+  "note": "Complete 48-sign compendium matching exact Kenyan Traffic Sign Charts (Command & Directional, Pictionary Warnings, and Prohibitory/Load Limits).",
+  "signs": [
+    {
+      "shape": "octagon",
+      "txt": "STOP",
+      "label": "Stop (Statutory Regulation R1)",
+      "meaning": "Come to a complete, absolute stop at the white stop line. Check all directions for approaching traffic and pedestrians before moving again."
+    },
+    {
+      "shape": "octagon",
+      "txt": "GO",
+      "label": "Stop / Go Control (Manual Checkpoint)",
+      "meaning": "Manual traffic control sign or flag used at road works and police checkpoints. Obey the sign face shown toward your approach lane."
+    },
+    {
+      "shape": "give",
+      "txt": "",
+      "label": "Give Way / Yield (Statutory Regulation R2)",
+      "meaning": "Slow down immediately and prepare to stop. Vehicles and pedestrians on the priority road or roundabout have absolute right of way."
+    },
+    {
+      "shape": "circle-no",
+      "txt": "⛔",
+      "label": "No Entry (Statutory Regulation R3)",
+      "meaning": "Entry is strictly prohibited for all motor vehicles and motorcycles. One-way street, pedestrian mall, or contraflow corridor."
+    },
+    {
+      "shape": "rect-oneway",
+      "txt": "⬅️➡️⬆️",
+      "label": "One Way (Left, right, straight on)",
+      "meaning": "Vehicular traffic must only flow in the single direction indicated by the white arrow on the red rectangular sign."
+    },
+    {
+      "shape": "circle-no",
+      "txt": "⬆️⬇️",
+      "label": "Give Way to Oncoming Traffic",
+      "meaning": "Narrow road or bridge ahead where two vehicles cannot pass simultaneously. Oncoming vehicles from the opposite direction have priority right of way."
+    },
+    {
+      "shape": "circle-blue",
+      "txt": "↙️",
+      "label": "Keep Left (Directional Command R15)",
+      "meaning": "All traffic must pass to the left side of this traffic island, roundabout divider, or highway median obstacle (`Standard Kenyan LHD Rule`)."
+    },
+    {
+      "shape": "circle-blue",
+      "txt": "↘️",
+      "label": "Keep Right (Directional Command R16)",
+      "meaning": "All traffic must pass to the right side of the obstacle or road works diversion."
+    },
+    {
+      "shape": "circle-blue",
+      "txt": "⬅️",
+      "label": "Proceed Left Only (Mandatory Turn)",
+      "meaning": "Vehicles must make a left turn at this junction. Going straight ahead or turning right is legally prohibited."
+    },
+    {
+      "shape": "circle-blue",
+      "txt": "➡️",
+      "label": "Proceed Right Only (Mandatory Turn)",
+      "meaning": "Vehicles must make a right turn at this junction. Going straight ahead or turning left is prohibited."
+    },
+    {
+      "shape": "circle-blue",
+      "txt": "⬆️",
+      "label": "Proceed Straight Only (Mandatory Direction)",
+      "meaning": "Vehicles must continue straight ahead at this intersection. Turning left or right is prohibited."
+    },
+    {
+      "shape": "circle-blue",
+      "txt": "⤴️",
+      "label": "Turn Left Ahead (Mandatory Advance Direction)",
+      "meaning": "Mandatory left turn ahead at the approaching intersection or junction."
+    },
+    {
+      "shape": "circle-blue",
+      "txt": "⤵️",
+      "label": "Turn Right Ahead (Mandatory Advance Direction)",
+      "meaning": "Mandatory right turn ahead at the approaching intersection or junction."
+    },
+    {
+      "shape": "circle-blue",
+      "txt": "🚶",
+      "label": "Pedestrians Only (Pedestrian Priority Track)",
+      "meaning": "Designated footpath or pedestrian mall. Motor vehicles, motorcycles (`Boda Bodas`), and bicycles are strictly forbidden."
+    },
+    {
+      "shape": "circle-blue",
+      "txt": "🚲",
+      "label": "Cyclists Only (Designated Cycle Track)",
+      "meaning": "Mandatory lane reserved exclusively for bicycles and non-motorized cycles. Motor vehicles and pedestrians must not enter."
+    },
+    {
+      "shape": "circle-blue",
+      "txt": "🚌",
+      "label": "Buses Only (Dedicated Bus & PSV Corridor)",
+      "meaning": "Traffic lane or corridor reserved strictly for high-capacity public service buses (`BRT / PSV`). Private cars and motorcycles must stay clear."
+    },
+    {
+      "shape": "circle-blue",
+      "txt": "🔄",
+      "label": "Roundabout (Mandatory Traffic Circle)",
+      "meaning": "Circulating traffic circle ahead. Enter only when the priority lane from your right is clear and proceed in a clockwise direction."
+    },
+    {
+      "shape": "limit",
+      "txt": "50",
+      "label": "Speed Limit (Statutory Maximum Speed)",
+      "meaning": "Vehicles must not exceed the posted speed limit (`50 km/h in urban areas or specifically marked zones`) under Section 70."
+    },
+    {
+      "shape": "limit",
+      "txt": "12t",
+      "label": "Mass Limit (Maximum Gross Vehicle Weight)",
+      "meaning": "Vehicles whose total combined gross weight exceeds the tonnage displayed (`e.g. 12 tons`) are prohibited from crossing this bridge or road section."
+    },
+    {
+      "shape": "limit",
+      "txt": "2t",
+      "label": "Axle Load Limit (Maximum Weight Per Axle)",
+      "meaning": "Vehicles whose weight on any single axle exceeds the displayed limit (`e.g. 2 tons`) are forbidden to protect fragile road pavements or structural spans."
+    },
+    {
+      "shape": "circle-no",
+      "txt": "⭕",
+      "label": "No Traffic / Closed to All Motor Vehicles",
+      "meaning": "Complete vehicular closure. Neither private nor public motor traffic is permitted past this boundary."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "🚗〰️",
+      "label": "Slippery Road (Warning Sign W24)",
+      "meaning": "The road surface ahead is abnormally slippery when wet or covered with mud/oil. Reduce speed immediately and avoid sudden braking or sharp steering."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "🐎",
+      "label": "Working Horse / Animal Warning",
+      "meaning": "Be alert for working horses, draft animals, or agricultural livestock sharing or crossing the road right of way."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "↪️",
+      "label": "No U-Turn (Prohibitory Regulation R11)",
+      "meaning": "Making a 180-degree U-turn across the road to travel in the opposite direction is strictly prohibited."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "🛏️",
+      "label": "Speed Bump / Table Ahead (Warning Sign W14)",
+      "meaning": "A raised speed bump or rumble table is built across the road ahead. Reduce vehicle speed below 20 km/h immediately."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "🐄",
+      "label": "Animals / Cattle Crossing Warning (W21)",
+      "meaning": "Gazetted pastoralist livestock corridor. Cattle, sheep, or goats frequently cross. Slow down to 30 km/h and yield to herders without sounding loud horns."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "➕",
+      "label": "Road Junction / Crossroads Ahead (W1)",
+      "meaning": "Two or more roads intersect ahead. Prepare to give way to cross traffic or turning vehicles joining the carriageway."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "⤴️",
+      "label": "Right Turn / Sharp Bend Ahead (W3)",
+      "meaning": "The road ahead curves sharply or turns to the right. Reduce speed before entering the bend to maintain tire grip."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "🔀",
+      "label": "Intersection / T-Junction Ahead",
+      "meaning": "A side road joins or intersects the main highway ahead. Watch for merging vehicles or slow-moving rural traffic joining your lane."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "🚶",
+      "label": "Pedestrian Crossing Ahead (Warning Sign W11)",
+      "meaning": "A marked zebra crossing is approaching ahead. Be prepared to slow down and stop for pedestrians stepping onto the white stripes (`Section 117`)."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "🚸",
+      "label": "School Children Crossing (Warning Sign W12)",
+      "meaning": "You are approaching a gazetted school zone. Maintain strict 30 km/h speed limits during school hours (`Section 117A`)."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "🚦",
+      "label": "Traffic Lights Ahead (Warning Sign W10)",
+      "meaning": "Automated three-color traffic signals (`Red, Amber, Green`) control the approaching junction. Prepare to stop if the light is red or changing."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "🚇",
+      "label": "Tunnel Ahead (Warning Sign W28)",
+      "meaning": "A road tunnel is ahead. Turn on vehicle dipped headlights, maintain a safe following distance, and do not stop inside the tunnel."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "🪨",
+      "label": "Falling Rocks Warning (Warning Sign W30)",
+      "meaning": "Steep escarpment cutting or cliff slope prone to falling boulders and landslides after rain. Stay alert and avoid stopping alongside rock faces."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "✈️",
+      "label": "Airport / Low Flying Aircraft Warning",
+      "meaning": "Road passes near an airfield runway or flight path. Sudden loud aircraft noise or low-altitude planes may startle drivers."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "⬆️⬇️",
+      "label": "Two Way Traffic Ahead (Warning Sign W20)",
+      "meaning": "A one-way street or dual carriageway ends ahead and transitions into a two-way undivided road with oncoming traffic sharing the carriageway."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": "🔄",
+      "label": "Roundabout Warning Ahead (W6)",
+      "meaning": "You are approaching a traffic circle or roundabout. Slow down and prepare to yield to circulating traffic approaching from your right."
+    },
+    {
+      "shape": "tri-warning",
+      "txt": ")(",
+      "label": "Caution Road Narrows on Both Sides (W16)",
+      "meaning": "The physical carriageway width narrows significantly from both sides ahead. Give way to oncoming heavy vehicles and avoid overtaking."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🚫🚗",
+      "label": "No Overtaking (Statutory Prohibition R12)",
+      "meaning": "Overtaking any moving motor vehicle is strictly prohibited due to high collision blackspots, blind crests, or narrow lanes."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "P",
+      "label": "No Parking (Statutory Prohibition R5)",
+      "meaning": "Parking unattended vehicles is strictly forbidden along this curb or road section. Violators face immediate vehicle towing and KSh 5,000 fines."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "S",
+      "label": "No Stopping (Absolute Prohibition R6)",
+      "meaning": "Vehicles must not stop, wait, or drop off/pick up passengers for any reason at any time along this highway corridor or clearway."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🚶",
+      "label": "No Pedestrians (Prohibitory Regulation)",
+      "meaning": "Pedestrians are strictly forbidden from entering or walking along this high-speed expressway, motorway, or hazardous bridge corridor."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🚲",
+      "label": "No Cyclists (Prohibitory Regulation)",
+      "meaning": "Bicycles and non-motorized cycles are prohibited from entering or riding along this roadway."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🚲🚶",
+      "label": "No Cyclists and Pedestrians",
+      "meaning": "Neither bicycles nor walking pedestrians are permitted along this expressway or tunnel corridor."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🛵",
+      "label": "No Motorcycles / No Boda Bodas",
+      "meaning": "Motorcycles, Boda Bodas, and three-wheelers (`Tuk-Tuks`) are prohibited from entering this CBD zone, flyover, or highway section."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🚗",
+      "label": "No Motor Cars (Saloon Car Prohibition)",
+      "meaning": "Private motor cars (`saloon vehicles`) are prohibited from entering this designated pedestrian or public transit zone."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🚕",
+      "label": "No Taxis (Taxi Prohibition Zone)",
+      "meaning": "Commercial taxis (`cabs and ride-hailing vehicles`) are prohibited from waiting, ranking, or picking up passengers along this frontage."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🚐",
+      "label": "No Minibuses / No Matatus",
+      "meaning": "Public service minibuses (`Matatus and 14-seater vans`) are prohibited from entering or stopping along this urban avenue."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🚌",
+      "label": "No Buses (Large Bus Prohibition)",
+      "meaning": "High-capacity public service buses and coaches are prohibited from entering or ranking along this narrow street."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🚛",
+      "label": "No Goods Vehicles / Heavy Lorry Prohibition",
+      "meaning": "Commercial trucks, goods vehicles, and heavy lorries are forbidden to prevent structural bridge stress or residential noise disruption."
+    },
+    {
+      "shape": "limit",
+      "txt": "2.1m",
+      "label": "Width Limit (Maximum Vehicle Width 2.1 Meters)",
+      "meaning": "Vehicles whose overall width (including mirrors and cargo) exceeds 2.1 meters cannot pass through this narrow gate or toll span."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🚗🛵",
+      "label": "No Motor Vehicles (Complete Motor Prohibition)",
+      "meaning": "All motorized vehicles (`both two-wheeled motorcycles and four-wheeled motor cars/trucks`) are forbidden from entering."
+    },
+    {
+      "shape": "limit",
+      "txt": "12t",
+      "label": "Bogie Weight Limit (Maximum Bogie Axle Load)",
+      "meaning": "Maximum allowable weight on any multi-axle bogie assembly (`e.g. tandem or tridem axle`) capped at 12 tons to protect fragile spans."
+    },
+    {
+      "shape": "circle-end",
+      "txt": "///",
+      "label": "End of Restriction (Clearance of Prohibition)",
+      "meaning": "Indicates the end of all previously posted local speed limits or overtaking prohibitions. Statutory national highway rules now apply."
+    },
+    {
+      "shape": "limit",
+      "txt": "4.4m",
+      "label": "Height Limit (Maximum Overhead Clearance 4.4m)",
+      "meaning": "Low bridge, tunnel, or overhead power line clearance strictly limited to 4.4 meters. High-cargo container trucks must use bypass routes."
+    },
+    {
+      "shape": "limit",
+      "txt": "15m",
+      "label": "Length Limit (Maximum Vehicle Length 15 Meters)",
+      "meaning": "Vehicles or articulated vehicle-and-trailer combinations whose total length exceeds 15 meters cannot negotiate the sharp bends ahead."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🔕",
+      "label": "No Excessive Noise / No Hooting (Silence Zone)",
+      "meaning": "Sounding vehicle horns, loud engine revving, or playing excessive music is legally prohibited (`e.g. near hospitals, courts, or wildlife reserves`)."
+    },
+    {
+      "shape": "circle-slash",
+      "txt": "🚫⬅️",
+      "label": "No Left Turn Ahead (Prohibitory Direction)",
+      "meaning": "Making a left turn into the approaching side street or junction is prohibited (`one-way entry or hazardous intersection`)."
+    }
+  ]
+}

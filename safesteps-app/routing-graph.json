@@ -1,0 +1,606 @@
+{
+  "lastUpdated": "2026-07-16",
+  "scope": "Embu town area \u2014 expanded illustrative sample coverage",
+  "note": "This is a hand-placed sample road graph covering more Embu-area landmarks than before, so the offline Route Checker has a fuller (but still not survey-accurate) network to route across. Nodes marked as waypoints were interpolated along the straight line between two known landmarks and approximate a real intermediate feature (a stage, junction, or crossing) rather than being independently surveyed. It is NOT a full OSM-derived street network. Replace this file with a proper OSM extract (e.g. via osmnx/osm2geojson for the Embu bounding box) for production-quality routing \u2014 the routing engine in index.html reads any file with this same {nodes, edges} shape (plus an optional roadType per edge used for travel-time estimates), so no other code needs to change.",
+  "safetyModel": {
+    "description": "Each edge carries a `lit` rating (full | partial | none) and a `safetyScore` (6\u201397, higher = safer). The Safety-Score route in index.html weights edges to prefer well-lit, low-accident corridors \u2014 especially for pedestrians and boda boda \u2014 rather than raw distance. Scores are a transparent, illustrative sample model derived from road class, street-lighting coverage, and known hazard severity in this graph; replace with survey/NTSA corridor data for production.",
+    "scoring": {
+      "baseByRoadType": {
+        "highway": 52,
+        "primary": 60,
+        "residential": 72
+      },
+      "lightingAdjust": {
+        "full": 14,
+        "partial": 0,
+        "none": -24
+      },
+      "severityAdjust": {
+        "high": -34,
+        "medium": -16,
+        "low": 0
+      },
+      "hazardNoteAdjust": -10,
+      "range": [
+        6,
+        97
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "kubukubu",
+      "name": "Kubu-Kubu Junction",
+      "lat": -0.531,
+      "lng": 37.451
+    },
+    {
+      "id": "marketrb",
+      "name": "Embu Market Roundabout",
+      "lat": -0.5387,
+      "lng": 37.4552
+    },
+    {
+      "id": "kangaru",
+      "name": "Kangaru School Crossing",
+      "lat": -0.5265,
+      "lng": 37.4494
+    },
+    {
+      "id": "bypass",
+      "name": "Embu\u2013Meru Highway Bypass",
+      "lat": -0.5145,
+      "lng": 37.461
+    },
+    {
+      "id": "karurumo",
+      "name": "Karurumo Stage",
+      "lat": -0.5602,
+      "lng": 37.4488
+    },
+    {
+      "id": "manyatta",
+      "name": "Manyatta Market Area",
+      "lat": -0.5453,
+      "lng": 37.4633
+    },
+    {
+      "id": "cbd",
+      "name": "Embu Town CBD",
+      "lat": -0.5372,
+      "lng": 37.4576
+    },
+    {
+      "id": "hospitalrd",
+      "name": "Embu Level 5 Hospital Junction",
+      "lat": -0.5331,
+      "lng": 37.451
+    },
+    {
+      "id": "kangaru2",
+      "name": "Kangaru Estate",
+      "lat": -0.5228,
+      "lng": 37.4527
+    },
+    {
+      "id": "blueline",
+      "name": "Blue Line Estate Junction",
+      "lat": -0.5459,
+      "lng": 37.4522
+    },
+    {
+      "id": "nembure",
+      "name": "Nembure Trading Centre",
+      "lat": -0.5518,
+      "lng": 37.4761
+    },
+    {
+      "id": "runyenjes",
+      "name": "Runyenjes Stage",
+      "lat": -0.4728,
+      "lng": 37.5719
+    },
+    {
+      "id": "kirimari",
+      "name": "Kirimari Market",
+      "lat": -0.5789,
+      "lng": 37.4699
+    },
+    {
+      "id": "buspark",
+      "name": "Embu Central Bus Park",
+      "lat": -0.5401,
+      "lng": 37.4589
+    },
+    {
+      "id": "hospgate",
+      "name": "Embu Level 5 Hospital Main Gate",
+      "lat": -0.5348,
+      "lng": 37.4536
+    },
+    {
+      "id": "marketstalls",
+      "name": "Embu Market Stalls (Gate B)",
+      "lat": -0.5379,
+      "lng": 37.4561
+    },
+    {
+      "id": "cathedral",
+      "name": "Embu Cathedral Junction",
+      "lat": -0.5358,
+      "lng": 37.4593
+    },
+    {
+      "id": "kangarugirls",
+      "name": "Kangaru Girls Secondary Crossing",
+      "lat": -0.5247,
+      "lng": 37.451
+    },
+    {
+      "id": "kianjokoma",
+      "name": "Kianjokoma Trading Centre",
+      "lat": -0.5195,
+      "lng": 37.456
+    },
+    {
+      "id": "university",
+      "name": "University of Embu Gate",
+      "lat": -0.5199,
+      "lng": 37.4556
+    },
+    {
+      "id": "blueline2",
+      "name": "Blue Valley Estate Phase 2",
+      "lat": -0.5516,
+      "lng": 37.4508
+    },
+    {
+      "id": "manyattachief",
+      "name": "Manyatta Chief's Camp Junction",
+      "lat": -0.5476,
+      "lng": 37.4678
+    },
+    {
+      "id": "nemburehc",
+      "name": "Nembure Health Centre Junction",
+      "lat": -0.5537,
+      "lng": 37.4718
+    },
+    {
+      "id": "karurumopolice",
+      "name": "Karurumo Police Post",
+      "lat": -0.5658,
+      "lng": 37.4551
+    },
+    {
+      "id": "kirimariprimary",
+      "name": "Kirimari Primary School Crossing",
+      "lat": -0.5733,
+      "lng": 37.4636
+    },
+    {
+      "id": "kagaari",
+      "name": "Kagaari Market",
+      "lat": -0.543,
+      "lng": 37.465
+    },
+    {
+      "id": "gatundu",
+      "name": "Gatundu Stage",
+      "lat": -0.4978,
+      "lng": 37.5054
+    },
+    {
+      "id": "kyeni",
+      "name": "Kyeni Trading Centre",
+      "lat": -0.4853,
+      "lng": 37.5386
+    },
+    {
+      "id": "kirimarichurch",
+      "name": "Kirimari Catholic Church Junction",
+      "lat": -0.5842,
+      "lng": 37.4675
+    },
+    {
+      "id": "manyattaest",
+      "name": "Manyatta Estate Deep End",
+      "lat": -0.5457,
+      "lng": 37.4566
+    },
+    {
+      "id": "kithimu",
+      "name": "Kithimu Village & Livestock Stage",
+      "lat": -0.551,
+      "lng": 37.43
+    },
+    {
+      "id": "mutunduri",
+      "name": "Mutunduri Rural Market & Cattle Checkpoint",
+      "lat": -0.519,
+      "lng": 37.481
+    },
+    {
+      "id": "gakwegori",
+      "name": "Gakwegori Village Crossing Stage",
+      "lat": -0.548,
+      "lng": 37.492
+    },
+    {
+      "id": "siakago",
+      "name": "Siakago Rural Highway Junction & Livestock Stage",
+      "lat": -0.569,
+      "lng": 37.411
+    }
+  ],
+  "edges": [
+    {
+      "from": "kubukubu",
+      "to": "hospitalrd",
+      "distanceM": 234,
+      "road": "Embu\u2013Meru Rd",
+      "roadType": "primary",
+      "hazardNote": "Avoid at rush hour (6:30\u20138:30, 17:00\u201319:30) \u2014 matatus turn across oncoming traffic with limited visibility.",
+      "lit": "full",
+      "safetyScore": 64
+    },
+    {
+      "from": "hospitalrd",
+      "to": "hospgate",
+      "distanceM": 345,
+      "road": "Hospital Rd",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "hospgate",
+      "to": "marketrb",
+      "distanceM": 469,
+      "road": "Embu\u2013Meru Rd",
+      "roadType": "primary",
+      "lit": "full",
+      "safetyScore": 74
+    },
+    {
+      "from": "marketrb",
+      "to": "marketstalls",
+      "distanceM": 134,
+      "road": "Kirinyaga Rd",
+      "roadType": "residential",
+      "hazardNote": "Congested on market days \u2014 boda bodas weave between vehicles near the roundabout.",
+      "lit": "partial",
+      "safetyScore": 62
+    },
+    {
+      "from": "marketstalls",
+      "to": "cbd",
+      "distanceM": 184,
+      "road": "Kirinyaga Rd",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "cbd",
+      "to": "buspark",
+      "distanceM": 353,
+      "road": "Kirinyaga Rd",
+      "roadType": "residential",
+      "hazardNote": "Buses and matatus reverse/maneuver without warning near stage entrances.",
+      "lit": "partial",
+      "safetyScore": 62
+    },
+    {
+      "from": "buspark",
+      "to": "cathedral",
+      "distanceM": 480,
+      "road": "Njukiri Way",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "cathedral",
+      "to": "cbd",
+      "distanceM": 245,
+      "road": "Njukiri Way",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "cbd",
+      "to": "kangaru",
+      "distanceM": 1499,
+      "road": "Kangaru Rd",
+      "roadType": "primary",
+      "hazardNote": "Uncontrolled school crossing \u2014 expect children crossing during school opening/closing hours.",
+      "lit": "partial",
+      "safetyScore": 50
+    },
+    {
+      "from": "kangaru",
+      "to": "kangarugirls",
+      "distanceM": 268,
+      "road": "Kangaru Rd",
+      "roadType": "residential",
+      "hazardNote": "Narrow shoulder \u2014 pedestrians and cyclists share the carriageway with matatus.",
+      "lit": "partial",
+      "safetyScore": 62
+    },
+    {
+      "from": "kangarugirls",
+      "to": "kangaru2",
+      "distanceM": 283,
+      "road": "Kangaru Rd",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "kangaru2",
+      "to": "university",
+      "distanceM": 456,
+      "road": "Embu\u2013Meru Rd",
+      "roadType": "primary",
+      "lit": "full",
+      "safetyScore": 74
+    },
+    {
+      "from": "university",
+      "to": "kianjokoma",
+      "distanceM": 63,
+      "road": "Embu\u2013Meru Rd",
+      "roadType": "primary",
+      "lit": "full",
+      "safetyScore": 74
+    },
+    {
+      "from": "kianjokoma",
+      "to": "bypass",
+      "distanceM": 786,
+      "road": "Embu\u2013Meru Rd",
+      "roadType": "primary",
+      "lit": "full",
+      "safetyScore": 74
+    },
+    {
+      "from": "marketrb",
+      "to": "blueline",
+      "distanceM": 867,
+      "road": "Kigari Rd",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "blueline",
+      "to": "blueline2",
+      "distanceM": 653,
+      "road": "Kigari Rd",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "blueline2",
+      "to": "karurumo",
+      "distanceM": 982,
+      "road": "Kigari Rd",
+      "roadType": "residential",
+      "hazardNote": "Unlit stretch after dusk \u2014 few streetlights past the estate boundary.",
+      "lit": "partial",
+      "safetyScore": 62
+    },
+    {
+      "from": "marketrb",
+      "to": "manyatta",
+      "distanceM": 1162,
+      "road": "Manyatta Rd",
+      "roadType": "primary",
+      "lit": "partial",
+      "safetyScore": 60
+    },
+    {
+      "from": "manyatta",
+      "to": "manyattaest",
+      "distanceM": 746,
+      "road": "Manyatta Link",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "manyattaest",
+      "to": "blueline",
+      "distanceM": 490,
+      "road": "Manyatta Link",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "hospitalrd",
+      "to": "cbd",
+      "distanceM": 864,
+      "road": "Hospital Rd",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "cbd",
+      "to": "kagaari",
+      "distanceM": 1045,
+      "road": "Nembure Rd",
+      "roadType": "primary",
+      "lit": "partial",
+      "safetyScore": 60
+    },
+    {
+      "from": "kagaari",
+      "to": "nembure",
+      "distanceM": 1575,
+      "road": "Nembure Rd",
+      "roadType": "primary",
+      "lit": "partial",
+      "safetyScore": 60
+    },
+    {
+      "from": "manyatta",
+      "to": "manyattachief",
+      "distanceM": 562,
+      "road": "Manyatta\u2013Nembure Rd",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "manyattachief",
+      "to": "nembure",
+      "distanceM": 1034,
+      "road": "Manyatta\u2013Nembure Rd",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "nembure",
+      "to": "nemburehc",
+      "distanceM": 523,
+      "road": "Nembure\u2013Kirimari Rd",
+      "roadType": "residential",
+      "hazardNote": "Health centre entrance \u2014 ambulances and boda bodas enter/exit without warning.",
+      "lit": "none",
+      "safetyScore": 38
+    },
+    {
+      "from": "bypass",
+      "to": "runyenjes",
+      "distanceM": 13174,
+      "road": "Embu\u2013Runyenjes Rd",
+      "roadType": "highway",
+      "hazardNote": "Rural stretch \u2014 watch for livestock crossing near grazing land, especially at dawn and dusk.",
+      "lit": "partial",
+      "safetyScore": 42
+    },
+    {
+      "from": "bypass",
+      "to": "gatundu",
+      "distanceM": 5275,
+      "road": "Embu\u2013Runyenjes Rd",
+      "roadType": "highway",
+      "lit": "partial",
+      "safetyScore": 52
+    },
+    {
+      "from": "gatundu",
+      "to": "kyeni",
+      "distanceM": 3945,
+      "road": "Embu\u2013Runyenjes Rd",
+      "roadType": "highway",
+      "lit": "partial",
+      "safetyScore": 52
+    },
+    {
+      "from": "kyeni",
+      "to": "runyenjes",
+      "distanceM": 3955,
+      "road": "Embu\u2013Runyenjes Rd",
+      "roadType": "highway",
+      "lit": "partial",
+      "safetyScore": 52
+    },
+    {
+      "from": "karurumo",
+      "to": "karurumopolice",
+      "distanceM": 937,
+      "road": "Karurumo\u2013Kirimari Rd",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "karurumopolice",
+      "to": "kirimariprimary",
+      "distanceM": 1260,
+      "road": "Karurumo\u2013Kirimari Rd",
+      "roadType": "residential",
+      "hazardNote": "Uncontrolled crossing near school gate during opening/closing hours.",
+      "lit": "partial",
+      "safetyScore": 62
+    },
+    {
+      "from": "kirimariprimary",
+      "to": "kirimari",
+      "distanceM": 937,
+      "road": "Karurumo\u2013Kirimari Rd",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "kirimari",
+      "to": "kirimarichurch",
+      "distanceM": 647,
+      "road": "Kirimari\u2013Church Rd",
+      "roadType": "residential",
+      "lit": "partial",
+      "safetyScore": 72
+    },
+    {
+      "from": "nemburehc",
+      "to": "kirimarichurch",
+      "distanceM": 3425,
+      "road": "Nembure\u2013Kirimari Rd",
+      "roadType": "residential",
+      "lit": "none",
+      "safetyScore": 48
+    },
+    {
+      "from": "kangaru",
+      "to": "mutunduri",
+      "distanceM": 3600,
+      "road": "Kangaru-Mutunduri Rural Highway",
+      "roadType": "highway",
+      "hazardNote": "\ud83d\udc04 CAUTION: Cattle & livestock crossing freely across rural stretch. Speed limit 30 km/h.",
+      "severity": "high",
+      "lit": "none",
+      "safetyScore": 6
+    },
+    {
+      "from": "manyatta",
+      "to": "gakwegori",
+      "distanceM": 3200,
+      "road": "Manyatta-Gakwegori Village Rd",
+      "roadType": "residential",
+      "hazardNote": "\ud83d\udc04 CAUTION: Goats and farm animals on road. Unpaved shoulder.",
+      "severity": "medium",
+      "lit": "none",
+      "safetyScore": 22
+    },
+    {
+      "from": "karurumo",
+      "to": "kithimu",
+      "distanceM": 2400,
+      "road": "Karurumo-Kithimu Stretch",
+      "roadType": "residential",
+      "hazardNote": "\ud83d\udc04 Livestock crossing corridor. Watch for herders at dawn/dusk.",
+      "severity": "medium",
+      "lit": "none",
+      "safetyScore": 22
+    },
+    {
+      "from": "kithimu",
+      "to": "siakago",
+      "distanceM": 2900,
+      "road": "Kithimu-Siakago Rural Stretch",
+      "roadType": "highway",
+      "hazardNote": "\ud83d\udc04 Major cattle crossing corridor near market. High accident risk for fast Boda Bodas.",
+      "severity": "high",
+      "lit": "none",
+      "safetyScore": 6
+    }
+  ]
+}

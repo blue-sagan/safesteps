@@ -1,0 +1,80 @@
+{
+  "lastUpdated": "2026-08-06",
+  "note": "Quick-action emergency dispatch numbers for Kenya. The three primary lines below (Red Cross 1199, Kenya Police 999/112, NTSA 0800 721 400) are shown as one-tap call buttons on the Emergency SOS screen. Secondary lines are national toll-free / widely-published numbers; where a county-specific line isn't centrally published, the app routes to Red Cross 1199, which dispatches nationwide.",
+  "primaryDispatch": [
+    {
+      "id": "redcross",
+      "label": "Kenya Red Cross",
+      "sub": "Ambulance & rescue — nationwide",
+      "number": "1199",
+      "tel": "tel:1199",
+      "icon": "🩹",
+      "color": "#EF4444",
+      "verified": true
+    },
+    {
+      "id": "police",
+      "label": "Kenya Police",
+      "sub": "Emergency — 999 / 112",
+      "number": "999",
+      "tel": "tel:999",
+      "altNumber": "112",
+      "altTel": "tel:112",
+      "icon": "👮",
+      "color": "#3B82F6",
+      "verified": true
+    },
+    {
+      "id": "ntsa",
+      "label": "NTSA Hotline",
+      "sub": "Traffic & road incident reporting",
+      "number": "0800 721 400",
+      "tel": "tel:0800721400",
+      "icon": "🚗",
+      "color": "#F2913B",
+      "verified": true
+    }
+  ],
+  "secondaryDispatch": [
+    {
+      "id": "redcross-alt",
+      "label": "Red Cross (alt line)",
+      "sub": "0700 395 395",
+      "tel": "tel:0700395395",
+      "icon": "🩹",
+      "color": "#EF4444"
+    },
+    {
+      "id": "fire",
+      "label": "Fire Brigade",
+      "sub": "020 2222181 (Nairobi)",
+      "tel": "tel:0202222181",
+      "icon": "🔥",
+      "color": "#F2913B"
+    },
+    {
+      "id": "aids",
+      "label": "AIDS Helpline",
+      "sub": "1190 (free)",
+      "tel": "tel:1190",
+      "icon": "☎️",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "child",
+      "label": "Childline Kenya",
+      "sub": "116 (free)",
+      "tel": "tel:116",
+      "icon": "🧒",
+      "color": "#00A344"
+    },
+    {
+      "id": "gender",
+      "label": "GBV Helpline",
+      "sub": "1195 (free)",
+      "tel": "tel:1195",
+      "icon": "🛡️",
+      "color": "#1E88E5"
+    }
+  ]
+}

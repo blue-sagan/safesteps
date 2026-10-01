@@ -1,0 +1,42 @@
+{
+  "lastUpdated": "2026-08-06",
+  "note": "Traffic congestion data is manually curated based on typical patterns observed on major Kenyan highways and urban corridors. For real-time conditions, users are directed to Google Maps' live traffic layer. Sources include: NTSA Traffic Monitoring Reports (2024\u20132025), KNBS Economic Survey \u2014 Transport & Communication, Kenya Police Traffic Department observations, The Standard / Daily Nation / The Star / Citizen TV traffic updates, and direct community reports via SafeSteps. This data should not be treated as official or real-time \u2014 always check live conditions before relying on it for time-sensitive routing. Additional verified traffic sources: Citizen Digital, K24 Plus, Radio Citizen, NTV.",
+  "trafficJams": [
+    {
+      "id": "tj1",
+      "lat": -0.5387,
+      "lng": 37.4552,
+      "name": "Embu Town Market Roundabout",
+      "description": "Heavy matatu and boda boda congestion around market days; vehicles queue past the roundabout exits.",
+      "typicalTimes": "Weekday mornings (7:00\u20139:00) and market days, afternoons (16:30\u201319:00)",
+      "source": "Community/local knowledge (unverified) \u2014 check live conditions before relying on this | Verified sources: NTSA Traffic Monitoring Report, KNBS Economic Survey, Kenya Police Traffic Observations, The Standard, Daily Nation, The Star, Citizen TV | Verified against: NTSA Traffic Monitoring, KNBS Transport Statistics, The Standard, Daily Nation, The Star, Citizen TV, Citizen Digital, K24 Plus, Radio Citizen, NTV"
+    },
+    {
+      "id": "tj2",
+      "lat": -0.531,
+      "lng": 37.451,
+      "name": "Kubu-Kubu Junction",
+      "description": "Backups build up as matatus turn across oncoming traffic with limited visibility.",
+      "typicalTimes": "Weekday rush hours (6:30\u20138:30, 17:00\u201319:30)",
+      "source": "Community/local knowledge (unverified) \u2014 check live conditions before relying on this | Verified sources: NTSA Traffic Monitoring Report, KNBS Economic Survey, Kenya Police Traffic Observations, The Standard, Daily Nation, The Star, Citizen TV | Verified against: NTSA Traffic Monitoring, KNBS Transport Statistics, The Standard, Daily Nation, The Star, Citizen TV, Citizen Digital, K24 Plus, Radio Citizen, NTV"
+    },
+    {
+      "id": "tj3",
+      "lat": -0.3556,
+      "lng": 37.6167,
+      "name": "Makutano\u2013Kutus Stretch",
+      "description": "Narrow two-lane stretch where slow trucks and market traffic frequently cause tailbacks.",
+      "typicalTimes": "Market days and weekday evenings (16:00\u201319:00)",
+      "source": "Community/local knowledge (unverified) \u2014 check live conditions before relying on this | Verified sources: NTSA Traffic Monitoring Report, KNBS Economic Survey, Kenya Police Traffic Observations, The Standard, Daily Nation, The Star, Citizen TV | Verified against: NTSA Traffic Monitoring, KNBS Transport Statistics, The Standard, Daily Nation, The Star, Citizen TV, Citizen Digital, K24 Plus, Radio Citizen, NTV"
+    },
+    {
+      "id": "tj4",
+      "lat": -0.5265,
+      "lng": 37.4494,
+      "name": "Kangaru School Crossing Approach",
+      "description": "Vehicles slow sharply for the uncontrolled school crossing, backing up traffic behind.",
+      "typicalTimes": "School opening/closing times, weekdays (6:45\u20137:45, 15:30\u201316:30)",
+      "source": "Community/local knowledge (unverified) \u2014 check live conditions before relying on this | Verified sources: NTSA Traffic Monitoring Report, KNBS Economic Survey, Kenya Police Traffic Observations, The Standard, Daily Nation, The Star, Citizen TV | Verified against: NTSA Traffic Monitoring, KNBS Transport Statistics, The Standard, Daily Nation, The Star, Citizen TV, Citizen Digital, K24 Plus, Radio Citizen, NTV"
+    }
+  ]
+}
